@@ -6,6 +6,12 @@ const person = {
 };
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
+//creating a reference of players
+let team=players;
+//copy of players
+let team1=players.splice();
+//object copy
+const cap1=Object.assign({},person);
 
 window.players = players;
 window.person = person;
