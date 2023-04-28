@@ -11,7 +11,8 @@ const team = players;
 //copy of players
 const team1 = players.splice();
 //object copy
-const cap1 = Object.assign({},person);
+const cap1=person;
+// const cap1 = Object.assign({},person);
 
 window.players = players;
 window.person = person;
