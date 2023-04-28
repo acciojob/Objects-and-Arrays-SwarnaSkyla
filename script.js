@@ -9,9 +9,9 @@ const person = {
 //creating a reference of players
 const team = players;
 //copy of players
-const team1 = players.splice();
+const team1 = [...players];
 //object copy
-const cap1=person;
+const cap1={...person};
 // const cap1 = Object.assign({},person);
 
 window.players = players;
